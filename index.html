@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Pictopia</title>
+
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <!-- css -->
+  <link rel="stylesheet" href="css/main.css">
+  <!-- jQuery CDN -->
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+</head>
+<body>
+
+  <div class="container-fluid sign-in-view">
+    <div class="row text-center">
+      <h1>Want did you post nearby?</h1>
+      <button class="btn btn-default">
+        <a href="https://instagram.com/oauth/authorize/?client_id=c9b4c6ae983b49f9b7469f1907ab812d&redirect_uri=http://localhost:8000&scope=public_content&response_type=token&distance=5000">
+          Click Here
+        </a>
+      </button>
+    </div>
+  </div>
+
+  <div class="container-fluid text-center image-results-view">
+    <h1>Here are the images you posted nearby:</h1>
+    <div class="images"></div>
+  </div>
+  <section class="likes">
+
+  </section>
+
+  <!-- js -->
+  <script src="js/main.js"></script>
+</body>
+</html>
